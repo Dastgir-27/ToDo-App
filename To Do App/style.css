@@ -1,0 +1,97 @@
+h2{
+    border: 1px solid black;
+    padding:5px 0 5px 5px;
+    background-color:bisque;
+}
+.fa-trash-can{
+    margin-left: 20px;
+}
+ul {
+    list-style-type: none; /* Removes default bullets */
+    padding: 0;
+    margin: 0;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: bisque; /* Light gray background */
+    padding: 10px 15px;
+    margin: 8px 0;
+    /* border-radius: 5px; */
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+li:hover {
+    background: #e9ecef; /* Slightly darker on hover */
+}
+
+li i {
+    color: #dc3545; /* Red trash icon */
+    cursor: pointer;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+li i:hover {
+    color: #a71d2a; /* Darker red on hover */
+}
+
+.main{
+    height: 30rem;
+    width: 100%;
+    border: 1px solid black;    
+}
+
+.nav{
+    padding:10px 0 10px 10px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    background-color:bisque;
+}
+.nav-ele{
+    margin-left:1.5rem;
+    height:2.5rem;
+    width:9rem;
+    border-radius:1rem;
+}
+
+#btn1{
+    color:white;
+    background-color:green;
+}
+#btn2{
+    background-color:yellow;
+}
+#btn3{
+    color:white;
+    background-color:red;
+}
+
+#btn1:hover {
+    color:green;
+    background-color: white;
+}
+#btn2:hover {
+    color: rgb(100, 117, 0);
+    background-color: white;
+}
+#btn3:hover {
+    color:red;
+    background-color: white;
+}
+
+.hw{
+    height:3rem;
+    width:20rem;
+    border-radius:1.5rem;
+    font-size:1.25rem;
+}
+.hw::placeholder{
+    font-size:1.25rem;
+    padding-left:1rem;
+}
